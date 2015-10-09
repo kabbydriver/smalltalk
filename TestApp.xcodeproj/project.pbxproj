@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		AC072DAA1B9E414200187782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC072DA91B9E414200187782 /* AppDelegate.swift */; };
 		AC072DAC1B9E414200187782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC072DAB1B9E414200187782 /* ViewController.swift */; };
-		AC072DAF1B9E414200187782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC072DAD1B9E414200187782 /* Main.storyboard */; };
 		AC072DB11B9E414200187782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC072DB01B9E414200187782 /* Images.xcassets */; };
-		AC072DB41B9E414200187782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC072DB21B9E414200187782 /* LaunchScreen.xib */; };
 		AC072DC01B9E414200187782 /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC072DBF1B9E414200187782 /* TestAppTests.swift */; };
+		AC072DCA1B9E426800187782 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC072DC91B9E426800187782 /* FBSDKCoreKit.framework */; };
+		AC072DCD1B9E8EB100187782 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC072DCC1B9E8EB100187782 /* FBSDKLoginKit.framework */; };
+		AC072DCF1B9E8EBD00187782 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC072DCE1B9E8EBD00187782 /* Bolts.framework */; };
+		AC1668DA1BA3D149000CC6FB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1668D91BA3D149000CC6FB /* CollectionViewCell.swift */; };
+		AC16CE3A1BA333B10037B8FC /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16CE391BA333B10037B8FC /* CollectionViewController.swift */; };
+		AC3F9D6C1BA9F7C600119E11 /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F9D6B1BA9F7C600119E11 /* TestCollectionViewController.swift */; };
+		AC6CC0C71BA116DE001DD560 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC0C61BA116DE001DD560 /* User.swift */; };
+		AC79B7E21BB4A45600071560 /* MPCManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC79B7E11BB4A45600071560 /* MPCManagerDelegate.swift */; };
+		ACA90B051BABA21B0007D3B8 /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA90B041BABA21B0007D3B8 /* MPCManager.swift */; };
+		ACA90B071BABECBD0007D3B8 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA90B061BABECBD0007D3B8 /* CardViewController.swift */; };
+		ACC208741BA0032700DA557C /* Rest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC208731BA0032700DA557C /* Rest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +39,22 @@
 		AC072DA81B9E414200187782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC072DA91B9E414200187782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC072DAB1B9E414200187782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC072DAE1B9E414200187782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC072DB01B9E414200187782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AC072DB31B9E414200187782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AC072DB91B9E414200187782 /* TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC072DBE1B9E414200187782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC072DBF1B9E414200187782 /* TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppTests.swift; sourceTree = "<group>"; };
+		AC072DC91B9E426800187782 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		AC072DCB1B9E8D1200187782 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		AC072DCC1B9E8EB100187782 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		AC072DCE1B9E8EBD00187782 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/FacebookSDKs-iOS-20150813/Bolts.framework"; sourceTree = "<group>"; };
+		AC1668D91BA3D149000CC6FB /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = ../../../../Downloads/UICollectionView/UICollectionView/CollectionViewCell.swift; sourceTree = "<group>"; };
+		AC16CE391BA333B10037B8FC /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		AC3F9D6B1BA9F7C600119E11 /* TestCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
+		AC6CC0C61BA116DE001DD560 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AC79B7E11BB4A45600071560 /* MPCManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManagerDelegate.swift; sourceTree = "<group>"; };
+		ACA90B041BABA21B0007D3B8 /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
+		ACA90B061BABECBD0007D3B8 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		ACC208731BA0032700DA557C /* Rest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC072DCA1B9E426800187782 /* FBSDKCoreKit.framework in Frameworks */,
+				AC072DCD1B9E8EB100187782 /* FBSDKLoginKit.framework in Frameworks */,
+				AC072DCF1B9E8EBD00187782 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +81,8 @@
 		AC072D9B1B9E414200187782 = {
 			isa = PBXGroup;
 			children = (
+				AC072DCE1B9E8EBD00187782 /* Bolts.framework */,
+				AC072DCC1B9E8EB100187782 /* FBSDKLoginKit.framework */,
 				AC072DA61B9E414200187782 /* TestApp */,
 				AC072DBC1B9E414200187782 /* TestAppTests */,
 				AC072DA51B9E414200187782 /* Products */,
@@ -77,12 +101,20 @@
 		AC072DA61B9E414200187782 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC072DC91B9E426800187782 /* FBSDKCoreKit.framework */,
 				AC072DA91B9E414200187782 /* AppDelegate.swift */,
+				AC79B7E11BB4A45600071560 /* MPCManagerDelegate.swift */,
+				AC072DCB1B9E8D1200187782 /* Bridging-Header.h */,
 				AC072DAB1B9E414200187782 /* ViewController.swift */,
-				AC072DAD1B9E414200187782 /* Main.storyboard */,
+				AC3F9D6B1BA9F7C600119E11 /* TestCollectionViewController.swift */,
+				ACA90B061BABECBD0007D3B8 /* CardViewController.swift */,
+				ACA90B041BABA21B0007D3B8 /* MPCManager.swift */,
+				AC6CC0C61BA116DE001DD560 /* User.swift */,
+				ACC208731BA0032700DA557C /* Rest.swift */,
 				AC072DB01B9E414200187782 /* Images.xcassets */,
-				AC072DB21B9E414200187782 /* LaunchScreen.xib */,
 				AC072DA71B9E414200187782 /* Supporting Files */,
+				AC1668D91BA3D149000CC6FB /* CollectionViewCell.swift */,
+				AC16CE391BA333B10037B8FC /* CollectionViewController.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -156,7 +188,9 @@
 		AC072D9C1B9E414200187782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Kabir;
 				TargetAttributes = {
 					AC072DA31B9E414200187782 = {
@@ -192,8 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC072DAF1B9E414200187782 /* Main.storyboard in Resources */,
-				AC072DB41B9E414200187782 /* LaunchScreen.xib in Resources */,
 				AC072DB11B9E414200187782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3F9D6C1BA9F7C600119E11 /* TestCollectionViewController.swift in Sources */,
+				AC16CE3A1BA333B10037B8FC /* CollectionViewController.swift in Sources */,
+				ACA90B051BABA21B0007D3B8 /* MPCManager.swift in Sources */,
+				AC6CC0C71BA116DE001DD560 /* User.swift in Sources */,
+				AC1668DA1BA3D149000CC6FB /* CollectionViewCell.swift in Sources */,
+				AC79B7E21BB4A45600071560 /* MPCManagerDelegate.swift in Sources */,
+				ACA90B071BABECBD0007D3B8 /* CardViewController.swift in Sources */,
+				ACC208741BA0032700DA557C /* Rest.swift in Sources */,
 				AC072DAC1B9E414200187782 /* ViewController.swift in Sources */,
 				AC072DAA1B9E414200187782 /* AppDelegate.swift in Sources */,
 			);
@@ -235,25 +275,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		AC072DAD1B9E414200187782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC072DAE1B9E414200187782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AC072DB21B9E414200187782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC072DB31B9E414200187782 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		AC072DC11B9E414200187782 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -275,7 +296,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -319,6 +342,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -340,9 +364,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kabirgogia/Downloads/FacebookSDKs-iOS-20150813",
+				);
 				INFOPLIST_FILE = TestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kabir.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestApp/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -350,9 +380,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/kabirgogia/Downloads/FacebookSDKs-iOS-20150813",
+				);
 				INFOPLIST_FILE = TestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kabir.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestApp/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -370,6 +406,7 @@
 				);
 				INFOPLIST_FILE = TestAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kabir.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/TestApp";
 			};
@@ -385,6 +422,7 @@
 				);
 				INFOPLIST_FILE = TestAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kabir.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/TestApp";
 			};
@@ -409,6 +447,7 @@
 				AC072DC51B9E414200187782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC072DC61B9E414200187782 /* Build configuration list for PBXNativeTarget "TestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +456,7 @@
 				AC072DC81B9E414200187782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
