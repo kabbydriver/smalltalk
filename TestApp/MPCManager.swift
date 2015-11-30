@@ -38,10 +38,6 @@ class MPCManager: NSObject, MCNearbyServiceBrowserDelegate, MCNearbyServiceAdver
     func browser(browser: MCNearbyServiceBrowser, foundPeer peerID: MCPeerID, withDiscoveryInfo info: [String : String]?) {
         let id = info!["1"]
         let token = info!["2"]
-        if id == masterUser.id {
-            print("Found self")
-            return
-        }
         if foundPeers[id!] != nil {
             print("\(UIDevice().name) found duplicate \(peerID.displayName)")
             return;

@@ -56,8 +56,22 @@ class TestCollectionViewController: UICollectionViewController {
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CollectionViewCell
     
-        cell.imageView!.image = data?[indexPath.row].img
-        cell.textLabel!.text = data?[indexPath.row].name
+//        cell.imageView?.image = data?[indexPath.row].img
+//        cell.textLabel?.text = data?[indexPath.row].name
+        
+        
+        let img = data?[indexPath.row].img
+        cell.imageView?.image = img
+        cell.imageView?.layer.cornerRadius = cell.imageView!.frame.width/2
+        cell.imageView?.clipsToBounds = true
+        
+        cell.textLabel?.text = data?[indexPath.row].name
+        cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        cell.textLabel?.textAlignment = NSTextAlignment.Center
+        cell.textLabel?.textColor = UIColor.lightGrayColor()
+        cell.textLabel?.font = UIFont(name: "Helvetica", size: 12)
+        
         
         return cell
     }

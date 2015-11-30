@@ -121,7 +121,7 @@ class CardViewController: UIViewController {
         
         if movieCollectionController == nil {
             movieCollectionController = TestCollectionViewController(collectionViewLayout: layout, data: user.moviesPictures + user.showsPictures)
-            movieCollectionController.view.frame = CGRect(x: 0, y: 160, width: self.view.frame.width, height: 120)
+            movieCollectionController.view.frame = CGRect(x: 0, y: 180, width: self.view.frame.width, height: 120)
             self.view.addSubview(movieCollectionController.view)
             return
         }
@@ -133,7 +133,7 @@ class CardViewController: UIViewController {
         
         if placesCollectionController == nil {
             placesCollectionController = TestCollectionViewController(collectionViewLayout: layout.deepCopy(), data: user.placesPictures)
-            placesCollectionController.view.frame = CGRect(x: 0, y: 280, width: self.view.frame.width, height: 120)
+            placesCollectionController.view.frame = CGRect(x: 0, y: 320, width: self.view.frame.width, height: 120)
             self.view.addSubview(placesCollectionController.view)
             return
         }
@@ -145,7 +145,7 @@ class CardViewController: UIViewController {
         
         if eventsCollectionController == nil {
             eventsCollectionController = TestCollectionViewController(collectionViewLayout: layout.deepCopy(), data: user.eventsPictures)
-            eventsCollectionController.view.frame = CGRect(x: 0, y: 400, width: self.view.frame.width, height: 120)
+            eventsCollectionController.view.frame = CGRect(x: 0, y: 460, width: self.view.frame.width, height: 120)
             self.view.addSubview(eventsCollectionController.view)
         }
         

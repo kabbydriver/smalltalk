@@ -65,7 +65,7 @@ class CollectionViewController: UIViewController, UICollectionViewDataSource, UI
         cell.textLabel?.textAlignment = NSTextAlignment.Center
         cell.textLabel?.textColor = UIColor.lightGrayColor()
         cell.textLabel?.font = UIFont(name: "Helvetica", size: 12)
-                
+        
         return cell
     }
     
