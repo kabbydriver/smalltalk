@@ -1,4 +1,4 @@
-***smalltalk***
+#smalltalk
 
 smalltalk uses your facebook account to show your profile
 to devices around you. You can also see other devices around
@@ -22,8 +22,8 @@ Password: Helloworld123
 To test the app, open it on two different devices, an 
 xcode simulator is fine. After logging in with facebook,
 a card should display shortly. Once a device has been found,
-the number in the bottom left will change. Shake the device 
-to view the new profile.
+the number in the bottom left will change. **Shake the device 
+to view the new profile.**
 
 
 
