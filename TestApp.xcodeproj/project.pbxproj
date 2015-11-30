@@ -15,7 +15,7 @@
 		AC21FE951C09526D008EA9AC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21FE941C09526D008EA9AC /* CollectionViewCell.swift */; };
 		AC21FE971C0952E6008EA9AC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC21FE961C0952E6008EA9AC /* FBSDKLoginKit.framework */; };
 		AC21FE991C09530B008EA9AC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC21FE981C09530B008EA9AC /* FBSDKCoreKit.framework */; };
-		AC3F9D6C1BA9F7C600119E11 /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F9D6B1BA9F7C600119E11 /* TestCollectionViewController.swift */; };
+		AC3F9D6C1BA9F7C600119E11 /* HorizontalCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F9D6B1BA9F7C600119E11 /* HorizontalCollectionViewController.swift */; };
 		AC6CC0C71BA116DE001DD560 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC0C61BA116DE001DD560 /* User.swift */; };
 		AC79B7E21BB4A45600071560 /* MPCManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC79B7E11BB4A45600071560 /* MPCManagerDelegate.swift */; };
 		ACA90B051BABA21B0007D3B8 /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA90B041BABA21B0007D3B8 /* MPCManager.swift */; };
@@ -47,7 +47,7 @@
 		AC21FE941C09526D008EA9AC /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		AC21FE961C0952E6008EA9AC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		AC21FE981C09530B008EA9AC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		AC3F9D6B1BA9F7C600119E11 /* TestCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
+		AC3F9D6B1BA9F7C600119E11 /* HorizontalCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewController.swift; sourceTree = "<group>"; };
 		AC6CC0C61BA116DE001DD560 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AC79B7E11BB4A45600071560 /* MPCManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManagerDelegate.swift; sourceTree = "<group>"; };
 		ACA90B041BABA21B0007D3B8 /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 				AC072DCB1B9E8D1200187782 /* Bridging-Header.h */,
 				AC21FE981C09530B008EA9AC /* FBSDKCoreKit.framework */,
 				AC072DAB1B9E414200187782 /* ViewController.swift */,
-				AC3F9D6B1BA9F7C600119E11 /* TestCollectionViewController.swift */,
+				AC3F9D6B1BA9F7C600119E11 /* HorizontalCollectionViewController.swift */,
 				ACA90B061BABECBD0007D3B8 /* CardViewController.swift */,
 				ACA90B041BABA21B0007D3B8 /* MPCManager.swift */,
 				AC6CC0C61BA116DE001DD560 /* User.swift */,
@@ -242,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC21FE951C09526D008EA9AC /* CollectionViewCell.swift in Sources */,
-				AC3F9D6C1BA9F7C600119E11 /* TestCollectionViewController.swift in Sources */,
+				AC3F9D6C1BA9F7C600119E11 /* HorizontalCollectionViewController.swift in Sources */,
 				AC16CE3A1BA333B10037B8FC /* CollectionViewController.swift in Sources */,
 				ACA90B051BABA21B0007D3B8 /* MPCManager.swift in Sources */,
 				AC6CC0C71BA116DE001DD560 /* User.swift in Sources */,

@@ -22,9 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.addSubview(vc.view)
         window!.makeKeyAndVisible()
         
-        
-        
-        
         return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
 
     }

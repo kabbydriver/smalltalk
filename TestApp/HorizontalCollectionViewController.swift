@@ -1,5 +1,5 @@
 //
-//  TestCollectionViewController.swift
+//  HorizontalCollectionViewController.swift
 //  
 //
 //  Created by Kabir Gogia on 9/16/15.
@@ -10,7 +10,7 @@ import UIKit
 
 let reuseIdentifier = "Cell"
 
-class TestCollectionViewController: UICollectionViewController {
+class HorizontalCollectionViewController: UICollectionViewController {
     
     
     var data:[(nameAndImage)]?
